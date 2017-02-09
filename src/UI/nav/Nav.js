@@ -39,7 +39,7 @@ var string2 = ".png";
             <Nav navbar className="ml-sm-auto">
 
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
+                <NavLink href="https://github.com/anthonyamaral/frame-data">Github</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
