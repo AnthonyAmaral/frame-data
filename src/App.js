@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import SideNav from './UI/sideNav/SideNav';
+import NotFound from './components/notFound/NotFound';
 import Fox from './components/characters/Fox';
 import Falco from './components/characters/Falco';
 import Shiek from './components/characters/Shiek';
@@ -8,9 +9,6 @@ import Marth from './components/characters/Marth';
 
 
 import Description from './components/description/Description';
-
-const NotFound = () => (<h1>404.. This page is not found!</h1>)
-
 
 
 class App extends Component {

@@ -20,16 +20,97 @@ export default class UINav extends React.Component {
     });
   }
   render() {
-var name = "/Wireframe";
-if (window.location.pathname === "/"){
-  name = "/Wireframe"
-} else {
-  name = window.location.pathname;
-};
 
-
+var name;
+switch (window.location.pathname){
+  case '/':
+    name = "/Wireframe";
+    break;
+  case '/fox':
+    name = "/fox";
+    break;
+  case '/falco':
+    name = "/falco";
+    break;
+  case '/shiek':
+    name = "/shiek";
+    break;
+  case '/marth':
+    name = "/marth";
+    break;
+  case '/captain-falcon':
+    name = "/captain-falcon";
+    break;
+  case '/jigglypuff':
+    name = "/jigglypuff";
+    break;
+  case '/ice-climbers':
+    name = "/ice-climbers";
+    break;
+  case '/peach':
+    name = "/peach";
+    break;
+  case '/pikachu':
+    name = "/pikachu";
+    break;
+  case '/samus':
+    name = "/samus";
+    break;
+  case '/doctor-mario':
+    name = "/doctor-mario";
+    break;
+  case '/yoshi':
+    name = "/yoshi";
+    break;
+  case '/luigi':
+    name = "/luigi";
+    break;
+  case '/mario':
+    name = "/mario";
+    break;
+  case '/link':
+    name = "/link";
+    break;
+  case '/young-link':
+    name = "/young-link";
+    break;
+  case '/donkey-kong':
+    name = "/donkey-kong";
+    break;
+  case '/ganondorf':
+    name = "/ganondorf";
+    break;
+  case '/roy':
+    name = "/roy";
+    break;
+  case '/game-and-watch':
+    name = "/game-and-watch";
+    break;
+  case '/mewtwo':
+    name = "/mewtwo";
+    break;
+  case '/zelda':
+    name = "/zelda";
+    break;
+  case '/ness':
+    name = "/ness";
+    break;
+  case '/pichu':
+    name = "/pichu";
+    break;
+  case '/bowser':
+    name = "/bowser";
+    break;
+  case '/kirby':
+    name = "/kirby";
+    break;
+  default:
+    name = "/Sandbag"
+    break;
+}
 var string1 = "images/icons";
 var string2 = ".png";
+
     return (
       <Navbar className="header" full color="faded" light toggleable>
         <Container>

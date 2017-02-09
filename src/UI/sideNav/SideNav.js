@@ -18,121 +18,115 @@ const propTypes = {
   children: React.PropTypes.node
 };
 
-class Components extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      navItems: [
-        {
-          name: 'Fox',
-          to: '/fox'
-        },
-        {
-          name: 'Falco',
-          to: '/falco'
-        },
-        {
-          name: 'Shiek',
-          to: '/shiek'
-        },
-        {
-          name: 'Marth',
-          to: '/marth'
-        },
-        {
-          name: 'Captain Falcon',
-          to: '/captain-falcon'
-        },
-        {
-          name: 'Jigglypuff',
-          to: '/jigglypuff'
-        },
-        {
-          name: 'Ice Climbers',
-          to: '/ice-climbers'
-        },
-
-        {
-          name: 'Peach',
-          to: '/peach'
-        },
-        {
-          name: 'Pikachu',
-          to: '/pikachu'
-        },
-        {
-          name: 'Samus',
-          to: '/samus'
-        },
-        {
-          name: 'Doctor Mario',
-          to: '/doctor-mario'
-        },
-        {
-          name: 'Yoshi',
-          to: '/yoshi'
-        },
-        {
-          name: 'Luigi',
-          to: '/luigi'
-        },
-        {
-          name: 'Mario',
-          to: '/mario'
-        },
-        {
-          name: 'Link',
-          to: '/link'
-        },
-        {
-          name: 'Young Link',
-          to: '/young-link'
-        },
-        {
-          name: 'Donkey Kong',
-          to: '/donkey-kong'
-        },
-        {
-          name: 'Ganondorf',
-          to: '/ganondorf'
-        },
-        {
-          name: 'Roy',
-          to: '/roy'
-        },
-        {
-          name: 'Game & Watch',
-          to: '/game-and-watch'
-        },
-        {
-          name: 'Mewtwo',
-          to: '/mewtwo'
-        },
-        {
-          name: 'Zelda',
-          to: '/zelda'
-        },
-        {
-          name: 'Ness',
-          to: '/ness'
-        },
-        {
-          name: 'Pichu',
-          to: '/pichu'
-        },
-        {
-          name: 'Bowser',
-          to: '/bowser'
-        },
-        {
-          name: 'Kirby',
-          to: '/kirby'
-        }
-
-      ]
-    };
+var nav = [
+  {
+    name: 'Fox',
+    to: '/fox'
+  },
+  {
+    name: 'Falco',
+    to: '/falco'
+  },
+  {
+    name: 'Shiek',
+    to: '/shiek'
+  },
+  {
+    name: 'Marth',
+    to: '/marth'
+  },
+  {
+    name: 'Captain Falcon',
+    to: '/captain-falcon'
+  },
+  {
+    name: 'Jigglypuff',
+    to: '/jigglypuff'
+  },
+  {
+    name: 'Ice Climbers',
+    to: '/ice-climbers'
+  },
+  {
+    name: 'Peach',
+    to: '/peach'
+  },
+  {
+    name: 'Pikachu',
+    to: '/pikachu'
+  },
+  {
+    name: 'Samus',
+    to: '/samus'
+  },
+  {
+    name: 'Doctor Mario',
+    to: '/doctor-mario'
+  },
+  {
+    name: 'Yoshi',
+    to: '/yoshi'
+  },
+  {
+    name: 'Luigi',
+    to: '/luigi'
+  },
+  {
+    name: 'Mario',
+    to: '/mario'
+  },
+  {
+    name: 'Link',
+    to: '/link'
+  },
+  {
+    name: 'Young Link',
+    to: '/young-link'
+  },
+  {
+    name: 'Donkey Kong',
+    to: '/donkey-kong'
+  },
+  {
+    name: 'Ganondorf',
+    to: '/ganondorf'
+  },
+  {
+    name: 'Roy',
+    to: '/roy'
+  },
+  {
+    name: 'Game & Watch',
+    to: '/game-and-watch'
+  },
+  {
+    name: 'Mewtwo',
+    to: '/mewtwo'
+  },
+  {
+    name: 'Zelda',
+    to: '/zelda'
+  },
+  {
+    name: 'Ness',
+    to: '/ness'
+  },
+  {
+    name: 'Pichu',
+    to: '/pichu'
+  },
+  {
+    name: 'Bowser',
+    to: '/bowser'
+  },
+  {
+    name: 'Kirby',
+    to: '/kirby'
   }
+];
+
+class Components extends React.Component {
+
   render() {
     return (
       <div>
@@ -143,7 +137,7 @@ class Components extends React.Component {
             <div className="docs-sidebar mb-2">
               <h5 className="sidenav-label">Characters</h5>
               <Nav className="flex-column">
-                {this.state.navItems.map((item, i) => {
+                {nav.map((item, i) => {
                   return <ComponentLink key={i} item={item} />;
                 })}
               </Nav>
