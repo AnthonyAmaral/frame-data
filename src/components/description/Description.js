@@ -17,13 +17,14 @@ const Example = (props) => {
           Over time, I will be adding new features to expand on this project. Enjoy!
         </p>
         <p className="bold">
-          Special thanks to Stratocasters Hitbox System on SmashBoards for providing the necessary data for this project.
+          Credit and special thanks to Stratocasters Hitbox System on SmashBoards as well as everyone else who provided the necessary data for this project.
         </p>
         <p>
           <a href="https://smashboards.com/threads/stratocasters-hitbox-system-new-download-link.283973/" target="_blank">
             <Button color="primary">View SmashBoards Post</Button>
           </a>
         </p>
+
       </Jumbotron>
     </div>
   );

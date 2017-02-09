@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'reactstrap';
+import { Row } from 'reactstrap';
 import CustomCard from '../card/Card';
 
 var character = [
@@ -167,7 +167,7 @@ const Example = (props) => {
                     move.description.split("\n").map(i => {
                     return <div>{i}</div>;
                     })}
-                  column = "6"
+                  column="6"
                   />
               )
           })

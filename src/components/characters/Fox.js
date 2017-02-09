@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'reactstrap';
+import { Row } from 'reactstrap';
 import CustomCard from '../card/Card';
 
 var fox = [
@@ -156,11 +156,12 @@ var fox = [
 
 
 const Example = (props) => {
+  var num;
   return (
     <Row>
       {
         fox.map(function(move) {
-          var num = move.name === "Illusion" ? (num = 12) : (num = 6);
+          num = move.name === "Illusion" ? (num = 12) : (num = 6);
               return (
                 <CustomCard
                   image={move.image}
@@ -169,7 +170,7 @@ const Example = (props) => {
                     move.description.split("\n").map(i => {
                     return <div>{i}</div>;
                     })}
-                  column = {num}
+                  column={num}
                   />
               )
           })

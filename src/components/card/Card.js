@@ -9,11 +9,12 @@ const Example = (props) => {
     <Col lg={props.column} md="12" sm="12">
       <Card>
         <CardBlock>
-          <CardTitle>{props.name}</CardTitle>
+          <CardTitle className="lead">{props.name}</CardTitle>
           <CardSubtitle>{props.frames}</CardSubtitle>
         </CardBlock>
         <CardImg width="100%" src={props.image} alt={props.name + character} />
         <CardBlock>
+        <CardSubtitle>{props.frames}</CardSubtitle>
           <CardText>{props.description}</CardText>
         </CardBlock>
       </Card>

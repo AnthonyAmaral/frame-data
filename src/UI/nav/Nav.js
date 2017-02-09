@@ -21,7 +21,7 @@ export default class UINav extends React.Component {
   }
   render() {
 var name = "/Wireframe";
-if (window.location.pathname == "/"){
+if (window.location.pathname === "/"){
   name = "/Wireframe"
 } else {
   name = window.location.pathname;
@@ -34,7 +34,7 @@ var string2 = ".png";
       <Navbar className="header" full color="faded" light toggleable>
         <Container>
           <NavbarToggler right onClick={this.toggleNavbar} />
-          <NavbarBrand className="mr-auto" tag={Link} to="/"><img className="nav-icon" src={string1 + name + string2} alt="icon" />Melee Frames</NavbarBrand>
+          <NavbarBrand className="mr-auto" tag={Link} to="/"><img className="nav-icon" src={string1 + name + string2} alt="icon" />Melee Frame Data</NavbarBrand>
           <Collapse navbar isOpen={this.state.showNavbar}>
             <Nav navbar className="ml-sm-auto">
 
