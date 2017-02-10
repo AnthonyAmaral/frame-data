@@ -34,6 +34,11 @@ var character = [
         'description' : "Frames: 29 \nHit: 5-8\nIASA: 28"
     },
     {
+        'name' : 'Dash Attack',
+        'image' : 'images/shiek/dash.gif',
+        'description' : "Frames: 37\nHit: 6-12 \nIASA: 36"
+    },
+    {
         'name' : 'Forward Smash',
         'image' : 'images/shiek/f-smash.gif',
         'description' : "Frames: 50\nHit: 12, 27-29 \nCharge Frames: 5\nIASA: 46"
@@ -47,11 +52,6 @@ var character = [
         'name' : 'Down Smash',
         'image' : 'images/shiek/d-smash.gif',
         'description' : "Frames: 49\n Hit: 5-9, 16-19, 22-24\nLegs invincible: 5\nIASA: 46\nCharge Frames: 2"
-    },
-    {
-        'name' : 'Dash Attack',
-        'image' : 'images/shiek/dash.gif',
-        'description' : "Frames: 37\nHit: 6-12 \nIASA: 36"
     },
     {
         'name' : 'Neutral Air',
@@ -83,24 +83,23 @@ var character = [
         'image' : 'images/shiek/grab.gif',
         'description' : "Frames: 30\nGrab: 7-8"
     },
-
     {
         'name' : 'Dash Grab',
-        'image' : 'images/shiek/fair.gif',
+        'image' : 'images/shiek/dash-grab.gif',
         'description' : "Frames: 40\nGrab: 8-9"
     },
     {
-        'name' : 'Down B',
+        'name' : 'Down B (Transform)',
         'image' : 'images/shiek/down-b.gif',
         'description' : "Frames: 62\nInvulnerable: 27-36\nFirst frame of Zelda: 37"
     },
     {
-        'name' : 'Neutral B',
+        'name' : 'Neutral B (Charged Needles)',
         'image' : 'images/shiek/n-b.gif',
         'description' : "Frames when charged: 40\nNeedles released at 4, 7, 10, 13, 16, 19"
     },
     {
-        'name' : 'Neutral B (airborne)',
+        'name' : 'Neutral B (Charged Needles airborne)',
         'image' : 'images/shiek/n-b-air.gif',
         'description' : "Needles released at 11, 14, 17, 20, 23, 26\nAuto cancels upon landing\nLast frame: 39\nNeedles last 30 frames"
     },

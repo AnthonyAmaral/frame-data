@@ -96,36 +96,36 @@ var character = [
 
     {
         'name' : 'Dash Grab',
-        'image' : 'images/falco/fair.gif',
+        'image' : 'images/falco/dash-grab.gif',
         'description' : "Frames: 40\nGrab: 12-13"
     },
     {
-        'name' : 'Shine',
+        'name' : 'Down B (Shine)',
         'image' : 'images/falco/down-b.gif',
         'description' : "Frames: 39 (or more)\nHits: 1\nInvincible: 1\nReflects: 4-21 or release+1\nJump cancelable whenever it reflects\nLag upon release: 19\nReflection lag: 19"
     },
     {
-        'name' : 'Blaster',
+        'name' : 'Neutral B (Blaster)',
         'image' : 'images/falco/n-b.gif',
         'description' : "Frames(single shot): 57\nShot comes out: 23\nRepeated shots, every 24 frames"
     },
     {
-        'name' : 'Blaster (airborne)',
+        'name' : 'Neutral B (Blaster airborne)',
         'image' : 'images/falco/n-b-air.gif',
         'description' : "Frames(single shot): 42\nShot comes out: 13\nRepeated shots, every 16 frames\nLaser lasts 99 frames\nAuto cancels upon landing"
     },
     {
-        'name' : 'Phantasm',
+        'name' : 'Side B (Phantasm)',
         'image' : 'images/falco/side-b.gif',
         'description' : "Frames: 59\nFalco starts moving away: 17\nHit: 18-21\nTime to press B and stop falco: 17-20\nCan grab edge as early as 25\nLandlag: 20\nLandfallspeciallag: 3"
     },
     {
-        'name' : 'Phantasm',
+        'name' : 'Side B (Phantasm airborne)',
         'image' : 'images/falco/side-b-air.gif',
         'description' : "Aerial Version\nFrames: 59\nFalco starts moving away: 17\nHit: 18-21\nTime to press B and stop falco: 17-20\nCan grab edge as early as 25\nLandlag: 20\nLandfallspeciallag: 3"
     },
     {
-        'name' : 'Firebird',
+        'name' : 'Up B (Firebird)',
         'image' : 'images/falco/up-b.gif',
         'description' : "Frames: 84\nHit: 43-64\nWhen to aim: 42\n grab edge during first part as early as 16\nLandlag: 6\nLandfallspeciallag: 3"
     },

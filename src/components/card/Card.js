@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, CardImg, CardTitle, CardText, CardSubtitle, CardBlock, Col } from 'reactstrap';
 
 
-const character = " Fox";
 
 const Example = (props) => {
   return (
@@ -12,7 +11,7 @@ const Example = (props) => {
           <CardTitle className="lead">{props.name}</CardTitle>
           <CardSubtitle>{props.frames}</CardSubtitle>
         </CardBlock>
-        <CardImg width="100%" src={props.image} alt={props.name + character} />
+        <CardImg width="100%" src={props.image} alt={props.name} />
         <CardBlock>
         <CardSubtitle>{props.frames}</CardSubtitle>
           <CardText>{props.description}</CardText>
