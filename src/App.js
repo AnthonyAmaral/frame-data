@@ -10,6 +10,7 @@ import Marth from './components/characters/Marth';
 import CaptainFalcon from './components/characters/Captain-Falcon';
 import Jigglypuff from './components/characters/jigglypuff';
 import IceClimbers from './components/characters/Ice-Climbers';
+import Peach from './components/characters/Peach';
 
 
 import Description from './components/description/Description';
@@ -28,6 +29,7 @@ class App extends Component {
           <Route path='/captain-falcon' component={CaptainFalcon}/>
           <Route path='/jigglypuff' component={Jigglypuff}/>
           <Route path='/ice-climbers' component={IceClimbers}/>
+          <Route path='/peach' component={Peach}/>
           <Route path='*' component={NotFound} />
         </Route>
       </Router>

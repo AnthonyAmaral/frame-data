@@ -21,7 +21,7 @@ const Example = (props) => {
         </p>
         <p>
           <a href="https://smashboards.com/threads/stratocasters-hitbox-system-new-download-link.283973/" target="_blank">
-            <Button color="primary">View SmashBoards Post</Button>
+            <Button color="primary">Stratocaster's Hitbox System</Button>
           </a>
         </p>
 
