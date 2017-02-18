@@ -13,7 +13,7 @@ const Example = (props) => {
         </CardBlock>
         <CardImg width="100%" src={props.image} alt={props.name} />
         <CardBlock>
-          <CardSubtitle>Frames:</CardSubtitle>
+        <CardSubtitle>{props.frames}</CardSubtitle>
           <CardText>{props.description}</CardText>
         </CardBlock>
       </Card>

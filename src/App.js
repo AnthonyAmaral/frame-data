@@ -11,6 +11,8 @@ import CaptainFalcon from './components/characters/Captain-Falcon';
 import Jigglypuff from './components/characters/jigglypuff';
 import IceClimbers from './components/characters/Ice-Climbers';
 import Peach from './components/characters/Peach';
+import Pikachu from './components/characters/Pikachu';
+import Pichu from './components/characters/Pichu';
 
 
 import Description from './components/description/Description';
@@ -30,6 +32,9 @@ class App extends Component {
           <Route path='/jigglypuff' component={Jigglypuff}/>
           <Route path='/ice-climbers' component={IceClimbers}/>
           <Route path='/peach' component={Peach}/>
+          <Route path='/pikachu' component={Pikachu}/>
+
+          <Route path='/pichu' component={Pichu}/>
           <Route path='*' component={NotFound} />
         </Route>
       </Router>
