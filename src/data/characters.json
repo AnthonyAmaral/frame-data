@@ -1,0 +1,1422 @@
+{
+    "captain-falcon": [
+        {
+            "name": "Jab",
+            "image": "../../images/captain-falcon/jab.gif",
+            "description": "Frames: 21 \n Hit: 3-5\n Window of the second jab: 3-25\n Second jab starts: 9"
+        },
+        {
+            "name": "Jab 2",
+            "image": "../images/captain-falcon/jab2.gif",
+            "description": "Frames: 20 \n Hit: 5-7 \nWindow of the knee: 2-25\nKnee starts: 8"
+        },
+        {
+            "name": "Jab 3 (Knee/Gentleman)",
+            "image": "../images/captain-falcon/jab3.gif",
+            "description": "Frames: 32 \n Hit: 6-12 \n IASA: 23\nRapid Jabs Start: 13"
+        },
+        {
+            "name": "Rapid Jab",
+            "image": "../images/captain-falcon/rapid-jab.gif",
+            "description": "Frames: 55 \n Hit: 5-6, 13-14, 21-22, 29-30, 36-37, 45-46\n*image also includes 5 frames of lag after jabs end (total:60)"
+        },
+        {
+            "name": "Forward Tilt",
+            "image": "../images/captain-falcon/f-tilt.gif",
+            "description": "Frames: 29 \n Hit: 9-11"
+        },
+        {
+            "name": "Forward Tilt (Up)",
+            "image": "../images/captain-falcon/f-tilt-up.gif",
+            "description": "Frames: 29 \n Hit: 9-11"
+        },
+        {
+            "name": "Forward Tilt (Down)",
+            "image": "../images/captain-falcon/f-tilt-down.gif",
+            "description": "Frames: 29 \n Hit: 9-11"
+        },
+        {
+            "name": "Up Tilt",
+            "image": "../images/captain-falcon/up-tilt.gif",
+            "description": "Frames: 39\nHit: 17-21\nIASA: 38"
+        },
+        {
+            "name": "Down Tilt",
+            "image": "../images/captain-falcon/d-tilt.gif",
+            "description": "Frames: 35 \nHit: 10-15\nIASA: 35"
+        },
+        {
+            "name": "Dash Attack",
+            "image": "../images/captain-falcon/dash.gif",
+            "description": "Frames: 39\nHit: 7-16 \nIASA: 38"
+        },
+        {
+            "name": "Forward Smash",
+            "image": "../images/captain-falcon/f-smash.gif",
+            "description": "Frames: 64\nHit: 18-21 \nCharge Frames: 10\nIASA: 60"
+        },
+        {
+            "name": "Up Smash",
+            "image": "../images/captain-falcon/up-smash.gif",
+            "description": "Frames: 54\nHit: 21-22, 27-28\nCharge Frames: 8\nIASA: 40"
+        },
+        {
+            "name": "Down Smash",
+            "image": "../images/captain-falcon/d-smash.gif",
+            "description": "Frames: 49\n Hit: 19-22, 29-32\nCharge Frames: 14\nIASA: 45"
+        },
+        {
+            "name": "Neutral Air",
+            "image": "../images/captain-falcon/nair.gif",
+            "description": "Frames: 44\n Hit: 7-12, 20-29\n Auto cancel: <3 34>\nLanding Lag: 15\nLcanceled: 7"
+        },
+        {
+            "name": "Up Air",
+            "image": "../images/captain-falcon/up-air.gif",
+            "description": "Frames: 33\n Hit: 6-13\nIASA: 30\n Auto cancel: 22>\nLanding Lag: 15\nLcanceled: 7"
+        },
+        {
+            "name": "Back Air",
+            "image": "../images/captain-falcon/bair.gif",
+            "description": "Frames: 35\n Hit: 10-17\n Auto cancel: <6 21>\nLanding Lag: 18\nLcanceled: 9"
+        },
+        {
+            "name": "Down Air",
+            "image": "../images/captain-falcon/dair.gif",
+            "description": "Frames: 44\n Hit: 16-20\n Auto cancel: <3 36>\nLanding Lag: 24\nLcanceled: 12"
+        },
+        {
+            "name": "Forward Air (Knee)",
+            "image": "../images/captain-falcon/fair.gif",
+            "description": "Frames: 39\n Hit: 14-30\n Auto cancel: <6 35>\nLanding Lag: 19\nLcanceled: 9"
+        },
+        {
+            "name": "Grab",
+            "image": "../images/captain-falcon/grab.gif",
+            "description": "Frames: 30\nGrab: 7-8"
+        },
+        {
+            "name": "Dash Grab",
+            "image": "../images/captain-falcon/dash-grab.gif",
+            "description": "Frames: 40\nGrab: 11-12"
+        },
+        {
+            "name": "Down B (Falcon Kick)",
+            "image": "../images/captain-falcon/down-b.gif",
+            "description": "Hit: 14-32\nRecovery time: 29\nWall hit lag: 60"
+        },
+        {
+            "name": "Down B (Falcon Kick airborne)",
+            "image": "../images/captain-falcon/down-b-air.gif",
+            "description": "Hit: 15-29\nRecovery time: 28\nNOTE: landing during recovery time causes ground hit\nGround hit lag: 45\nGround hit damaging: 1-2"
+        },
+        {
+            "name": "Neutral B (Falcon Punch!)",
+            "image": "../images/captain-falcon/n-b.gif",
+            "description": "Frames: 99\nHit: 52-56"
+        },
+        {
+            "name": "Side B (Raptor Boost)",
+            "image": "../images/captain-falcon/side-b.gif",
+            "description": "Total ground (whiffed): 79\n Hit window: ground: 15-34 air: 17-34\nWhen he hits: 4-8\nLag from hitting: ground: 25 air: 45\nLandlag: 20\nlandfallspeciallag: 20"
+        },
+        {
+            "name": "Up B (Falcon Dive)",
+            "image": "../images/captain-falcon/up-b.gif",
+            "description": "Frames: 64\nGrab: 13-33\nCan grab edges as soon as: 38\n--When grabbing---\nTotal: 79 Hit: 2-6 Sends away: 20\nlandfallspeciallag: 30"
+        },
+        {
+            "name": "Air Dodge",
+            "image": "../images/captain-falcon/air-dodge.gif",
+            "description": "Frames: 49\nInvulnerable: 4-29"
+        },
+        {
+            "name": "Spot Dodge",
+            "image": "../images/captain-falcon/spot-dodge.gif",
+            "description": "Frames: 32\nInvulnerable: 3-20"
+        },
+        {
+            "name": "Roll Forward",
+            "image": "../images/captain-falcon/roll-forward.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19"
+        },
+        {
+            "name": "Roll Back",
+            "image": "../images/captain-falcon/roll-back.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19"
+        }
+    ],
+    "falco": [
+        {
+            "name": "Jab",
+            "image": "../images/falco/jab.gif",
+            "description": "Frames: 17 \n Hit: 2-3 \n IASA: 16 \n Window of the second jab: 3-31 \n Second jab starts: 6 (or later)"
+        },
+        {
+            "name": "Jab 2",
+            "image": "../images/falco/jab2.gif",
+            "description": "Frames: 20 \n Hit: 3-4 \n IASA: 19 \n Window of the kick jabs: 1-20 \n Kickjabs start: 7"
+        },
+        {
+            "name": "Rapid Jab",
+            "image": "../images/falco/jab3.gif",
+            "description": "Hits: 3-4, 10-11, 17-18, 24-25, 31-32 (6 frames between each kick)\nFull cycle: 36 frames​"
+        },
+        {
+            "name": "Forward Tilt",
+            "image": "../images/falco/f-tilt.gif",
+            "description": "Frames: 26 \n Hit: 5-9"
+        },
+        {
+            "name": "Forward Tilt Up",
+            "image": "../images/falco/f-tilt-up.gif",
+            "description": "Frames: 26 \n Hit: 5-9"
+        },
+        {
+            "name": "Forward Tilt Down",
+            "image": "../images/falco/f-tilt-down.gif",
+            "description": "Frames: 26 \n Hit: 5-9"
+        },
+        {
+            "name": "Up Tilt",
+            "image": "../images/falco/u-tilt.gif",
+            "description": "Frames: 23\nHit: 5-11\nIASA: 23\nShield Stun: 11\nShield Hit Lag: 5"
+        },
+        {
+            "name": "Down Tilt",
+            "image": "../images/falco/d-tilt.gif",
+            "description": "Frames: 29 \nHit: 7-9\nIASA: 28"
+        },
+        {
+            "name": "Dash Attack",
+            "image": "../images/falco/dash-attack.gif",
+            "description": "Frames: 39\nHit: 4-17 \nIASA: 36"
+        },
+        {
+            "name": "Forward Smash",
+            "image": "../images/falco/f-smash.gif",
+            "description": "Frames: 39\nHit: 12-21 \nCharge Frames: 7"
+        },
+        {
+            "name": "Up Smash",
+            "image": "../images/falco/up-smash.gif",
+            "description": "Frames: 43\nHit: 7-15\nHead invincible (but not beak): 1-10\nCharge Frames: 2"
+        },
+        {
+            "name": "Down Smash",
+            "image": "../images/falco/d-smash.gif",
+            "description": "Frames: 49\n Hit: 6-10\nLegs invincible: 1-6\nIASA: 46\nCharge Frames: 2"
+        },
+        {
+            "name": "Neutral Air",
+            "image": "../images/falco/nair.gif",
+            "description": "Frames: 49\n Hit: 4-31\n IASA: 42\n Auto cancel: <3 37>\nLanding Lag: 15\nLcanceled: 7"
+        },
+        {
+            "name": "Up Air",
+            "image": "../images/falco/up-air.gif",
+            "description": "Frames: 39\n Hit: 8-9, 11-14\n IASA: 36\n Auto cancel: <7 26>\nLanding Lag: 18\nLcanceled: 9"
+        },
+        {
+            "name": "Back Air",
+            "image": "../images/falco/bair.gif",
+            "description": "Frames: 39\n Hit: 4-19\n IASA: 38\n Auto cancel: <3 23>\nLanding Lag: 20\nLcanceled: 10"
+        },
+        {
+            "name": "Down Air",
+            "image": "../images/falco/dair.gif",
+            "description": "Frames: 49\n Hit: 5-24\nAuto cancel: <4 30>\nLanding Lag: 18\nLcanceled: 9"
+        },
+        {
+            "name": "Forward Air",
+            "image": "../images/falco/fair.gif",
+            "description": "Frames: 59\n Hit: 6-8, 16-18, 24-26, 33-35, 43-45\n IASA: 53\n Auto cancel: <5 49>\nLanding Lag: 22\nLcanceled: 11"
+        },
+        {
+            "name": "Grab",
+            "image": "../images/falco/grab.gif",
+            "description": "Frames: 30\nGrab: 7-8"
+        },
+        {
+            "name": "Dash Grab",
+            "image": "../images/falco/dash-grab.gif",
+            "description": "Frames: 40\nGrab: 12-13"
+        },
+        {
+            "name": "Down B (Shine)",
+            "image": "../images/falco/down-b.gif",
+            "description": "Frames: 39 (or more)\nHits: 1\nInvincible: 1\nReflects: 4-21 or release+1\nJump cancelable whenever it reflects\nLag upon release: 19\nReflection lag: 19"
+        },
+        {
+            "name": "Neutral B (Blaster)",
+            "image": "../images/falco/n-b.gif",
+            "description": "Frames(single shot): 57\nShot comes out: 23\nRepeated shots, every 24 frames"
+        },
+        {
+            "name": "Neutral B (Blaster airborne)",
+            "image": "../images/falco/n-b-air.gif",
+            "description": "Frames(single shot): 42\nShot comes out: 13\nRepeated shots, every 16 frames\nLaser lasts 99 frames\nAuto cancels upon landing"
+        },
+        {
+            "name": "Side B (Phantasm)",
+            "image": "../images/falco/side-b.gif",
+            "description": "Frames: 59\nFalco starts moving away: 17\nHit: 18-21\nTime to press B and stop falco: 17-20\nCan grab edge as early as 25\nLandlag: 20\nLandfallspeciallag: 3"
+        },
+        {
+            "name": "Side B (Phantasm airborne)",
+            "image": "../images/falco/side-b-air.gif",
+            "description": "Aerial Version\nFrames: 59\nFalco starts moving away: 17\nHit: 18-21\nTime to press B and stop falco: 17-20\nCan grab edge as early as 25\nLandlag: 20\nLandfallspeciallag: 3"
+        },
+        {
+            "name": "Up B (Firebird)",
+            "image": "../images/falco/up-b.gif",
+            "description": "Frames: 84\nHit: 43-64\nWhen to aim: 42\n grab edge during first part as early as 16\nLandlag: 6\nLandfallspeciallag: 3"
+        },
+        {
+            "name": "Air Dodge",
+            "image": "../images/falco/air-dodge.gif",
+            "description": "Frames: 49\nInvulnerable: 4-29"
+        },
+        {
+            "name": "Spot Dodge",
+            "image": "../images/falco/spot-dodge.gif",
+            "description": "Frames: 22\nInvulnerable: 2-15"
+        },
+        {
+            "name": "Roll Forward",
+            "image": "../images/falco/roll-forward.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19"
+        },
+        {
+            "name": "Roll Back",
+            "image": "../images/falco/roll-back.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19"
+        }
+    ],
+    "fox": [
+        {
+            "name": "Jab",
+            "image": "../images/fox/fox-jab.gif",
+            "description": "Frames: 18 \n Hit: 2-3 \n IASA: 16 \n Window of the second jab: 3-31 \n Second jab starts: 6 (or later)"
+        },
+        {
+            "name": "Jab 2",
+            "image": "../images/fox/fox-jab2.gif",
+            "description": "Frames: 20 \n Hit: 3-4 \n IASA: 19 \n Window of the kick jabs: 1-20 \n Kickjabs start: 6"
+        },
+        {
+            "name": "Rapid Jab",
+            "image": "../images/fox/rapid-jab.gif",
+            "description": "Intermediary Animation Frames: 6 \n Hits: 3-4, 10-11, 17-18, 24-25, 31-32 \n Full cycle: 36 frames"
+        },
+        {
+            "name": "Forward Tilt",
+            "image": "../images/fox/f-tilt.gif",
+            "description": "Frames: 26 \n Hit: 5-8"
+        },
+        {
+            "name": "Forward Tilt Up",
+            "image": "../images/fox/f-tilt-up.gif",
+            "description": "Frames: 26 \n Hit: 5-8"
+        },
+        {
+            "name": "Forward Tilt Down",
+            "image": "../images/fox/f-tilt-down.gif",
+            "description": "Frames: 26 \n Hit: 5-8"
+        },
+        {
+            "name": "Down Tilt",
+            "image": "../images/fox/d-tilt.gif",
+            "description": "Frames: 26 \nHit: 5-8\nIASA: 28"
+        },
+        {
+            "name": "Up Tilt",
+            "image": "../images/fox/u-tilt.gif",
+            "description": "Frames: 24\nHit: 5-11\nIASA: 23"
+        },
+        {
+            "name": "Dash Attack",
+            "image": "../images/fox/dash-attack.gif",
+            "description": "Frames: 39\nHit: 4-17 \nIASA: 36"
+        },
+        {
+            "name": "Forward Smash",
+            "image": "../images/fox/f-smash.gif",
+            "description": "Frames: 39\nHit: 12-22 \nCharge Frames: 7"
+        },
+        {
+            "name": "Up Smash",
+            "image": "../images/fox/up-smash.gif",
+            "description": "Frames: 41\nHit: 7-17\nHead invincible (but not snout): 1-9\nCharge Frames: 2"
+        },
+        {
+            "name": "Down Smash",
+            "image": "../images/fox/d-smash.gif",
+            "description": "Frames: 49\n Hit: 6-10\nLegs invincible: 6\nIASA: 46\nCharge Frames: 2"
+        },
+        {
+            "name": "Neutral Air",
+            "image": "../images/fox/nair.gif",
+            "description": "Frames: 49\n Hit: 4-31\n IASA: 42\n Auto cancel: <3 37>\nLanding Lag: 15\nLcanceled: 7"
+        },
+        {
+            "name": "Up Air",
+            "image": "../images/fox/up-air.gif",
+            "description": "Frames: 39\n Hit: 4-31, 11-14\n IASA: 36\n Auto cancel: <7 26>\nLanding Lag: 18\nLcanceled: 9"
+        },
+        {
+            "name": "Back Air",
+            "image": "../images/fox/bair.gif",
+            "description": "Frames: 39\n Hit: 4-19\n IASA: 38\n Auto cancel: <3 24>\nLanding Lag: 20\nLcanceled: 10"
+        },
+        {
+            "name": "Down Air",
+            "image": "../images/fox/dair.gif",
+            "description": "Frames: 49\n Hit: 5-6, 8-9, 11-12, 14-15, 17-18, 20-21, 23-24\nAuto cancel: <4 31>\nLanding Lag: 18\nLcanceled: 9"
+        },
+        {
+            "name": "Forward Air",
+            "image": "../images/fox/fair.gif",
+            "description": "Frames: 59\n Hit: 6-8, 16-18, 24-26, 33-35, 43-45\n IASA: 53\n Auto cancel: <5 49>\nLanding Lag: 22\nLcanceled: 11"
+        },
+        {
+            "name": "Grab",
+            "image": "../images/fox/grab.gif",
+            "description": "Frames: 30\nGrab: 7-8"
+        },
+        {
+            "name": "Dash Grab",
+            "image": "../images/fox/fair.gif",
+            "description": "Frames: 40\nGrab: 12-13"
+        },
+        {
+            "name": "Shine",
+            "image": "../images/fox/shine.gif",
+            "description": "Frames: 39 (or more)\nHits: 1\nReflects: 4-21 or release+1\nJump cancelable whenever it reflects\nLag upon release: 19\nReflection lag: 19"
+        },
+        {
+            "name": "Blaster",
+            "image": "../images/fox/blaster.gif",
+            "description": "Frames(single shot): 36\nShot comes out: 10\nRepeated shots, every 10 frames\nLaser lasts 34 frames\nAuto cancels upon landing"
+        },
+        {
+            "name": "Blaster (airborne)",
+            "image": "../images/fox/aerial-blaster.gif",
+            "description": "Aerial Version\nFrames(single shot): 36\nShot comes out: 10\nRepeated shots, every 10 frames\nLaser lasts 34 frames\nAuto cancels upon landing"
+        },
+        {
+            "name": "Illusion",
+            "image": "../images/fox/illusion.gif",
+            "description": "Frames: 63\nFox starts moving away: 21\nHit: 22-25\nTime to press B and stop Fox: 20-24\nCan grab edge as early as 29\nLandlag: 20\nLandfallspeciallag: 3"
+        },
+        {
+            "name": "Illusion",
+            "image": "../images/fox/aerial-illusion.gif",
+            "description": "Aerial Version\nFrames: 63\nFox starts moving away: 21\nHit: 22-25\nTime to press B and stop Fox: 20-24\nCan grab edge as early as 29\nLandlag: 20\nLandfallspeciallag: 3"
+        },
+        {
+            "name": "Firefox",
+            "image": "../images/fox/up-b.gif",
+            "description": "Frames: 92\nHit: 20, 22, 24, 26, 28, 30, 32, 43-72\nWhen to aim: 42\n grab edge during first part as early as 16\nCan grab edge during moving part as early as 73 (Downward angle allows early ledge grab)\nLandlag: 6\nLandfallspeciallag: 3"
+        },
+        {
+            "name": "Air Dodge",
+            "image": "../images/fox/air-dodge.gif",
+            "description": "Invulnerable 4-29 out of 49 frames"
+        },
+        {
+            "name": "Spot Dodge",
+            "image": "../images/fox/spot-dodge.gif",
+            "description": "Invulnerable 2-15 out of 22 frames"
+        },
+        {
+            "name": "Roll Forward",
+            "image": "../images/fox/roll-forward.gif",
+            "description": "Invulnerable 4-19 out of 31"
+        },
+        {
+            "name": "Roll Back",
+            "image": "../images/fox/roll-back.gif",
+            "description": "Invulnerable 4-19 out of 31\n15th longest roll - M2K"
+        }
+    ],
+    "ice-climbers": [
+        {
+            "name": "Jab",
+            "image": "../images/ice-climbers/jab.gif",
+            "description": "Frames: 29\nIASA: 16\nHit: 4-7\nWindow of the backswing: 3-29\nBackswing starts: 14(or later)"
+        },
+        {
+            "name": "Jab 2",
+            "image": "../images/ice-climbers/jab2.gif",
+            "description": "Frames: 29\nIASA: 18\nHit: 5-7"
+        },
+        {
+            "name": "Forward Tilt",
+            "image": "../images/ice-climbers/f-tilt.gif",
+            "description": "Frames: 31\nHit: 6-9\nIASA: 28"
+        },
+        {
+            "name": "Forward Tilt (Up)",
+            "image": "../images/ice-climbers/f-tilt-up.gif",
+            "description": "Frames: 31\nHit: 6-9\nIASA: 28"
+        },
+        {
+            "name": "Forward Tilt (Down)",
+            "image": "../images/ice-climbers/f-tilt-down.gif",
+            "description": "Frames: 31\nHit: 6-9\nIASA: 28"
+        },
+        {
+            "name": "Up Tilt",
+            "image": "../images/ice-climbers/up-tilt.gif",
+            "description": "Frames: 49\nHit: 8-9, 11-12, 14-15, 17-18, 20-21, 23-24, 26\nIASA: 42"
+        },
+        {
+            "name": "Down Tilt",
+            "image": "../images/ice-climbers/d-tilt.gif",
+            "description": "Frames: 34\nHit: 8-11\nIASA: 29"
+        },
+        {
+            "name": "Dash Attack",
+            "image": "../images/ice-climbers/dash.gif",
+            "description": "Frames: 41\nHit: 11-12 \nIASA: 38"
+        },
+        {
+            "name": "Forward Smash",
+            "image": "../images/ice-climbers/f-smash.gif",
+            "description": "Frames: 47\nHit: 13-14 \nCharge Frames: 7\nIASA: 47"
+        },
+        {
+            "name": "Up Smash",
+            "image": "../images/ice-climbers/up-smash.gif",
+            "description": "Frames: 49\nHit: 14-18 \nCharge Frames: 8\nIASA: 44"
+        },
+        {
+            "name": "Down Smash",
+            "image": "../images/ice-climbers/d-smash.gif",
+            "description": "Frames: 39\nHit: 6-11 \nCharge Frames: 2\nIASA: 36"
+        },
+        {
+            "name": "Neutral Air",
+            "image": "../images/ice-climbers/nair.gif",
+            "description": "Frames: 49\n Hit: 6-23\nIASA: 36\n Auto cancel: <5 30>\nLanding Lag: 20\nLcanceled: 10"
+        },
+        {
+            "name": "Up Air",
+            "image": "../images/ice-climbers/up-air.gif",
+            "description": "Frames: 39\n Hit: 6-23\nIASA: 30\n Auto cancel: <5 27>\nLanding Lag: 32\nLcanceled: 16"
+        },
+        {
+            "name": "Back Air",
+            "image": "../images/ice-climbers/bair.gif",
+            "description": "Frames: 39\n Hit: 8-11\nIASA: 36\n Auto cancel: <7 19>\nLanding Lag: 20\nLcanceled: 10"
+        },
+        {
+            "name": "Down Air",
+            "image": "../images/ice-climbers/dair.gif",
+            "description": "Frames: 65\n Hit: 3-52\n Auto cancel: <2 58>\nLanding Lag: 25\nLcanceled: 12"
+        },
+        {
+            "name": "Forward Air",
+            "image": "../images/ice-climbers/fair.gif",
+            "description": "Frames: 59\n Hit: 19-22\nIASA: 55\n Auto cancel: <2 55>\nLanding Lag: 20\nLcanceled: 10"
+        },
+        {
+            "name": "Grab",
+            "image": "../images/ice-climbers/grab.gif",
+            "description": "Frames: 30\nGrab: 7-8"
+        },
+        {
+            "name": "Dash Grab",
+            "image": "../images/ice-climbers/dash-grab.gif",
+            "description": "Frames: 40\nGrab: 7-8"
+        },
+        {
+            "name": "Neutral B (Ice Shot)",
+            "image": "../images/ice-climbers/n-b.gif",
+            "description": "Frames: 59\nHammer hit: 15-20\nIce appears: 17\nIce lasts: 61 frames"
+        },
+        {
+            "name": "Down B (Blizzard)",
+            "image": "../images/ice-climbers/down-b.gif",
+            "description": "Frames: 79\nHitboxes appear every five frames\nfrom 16 to 56\nEach hitbox lasts 11 frames\nTotal hit window: 16-66"
+        },
+        {
+            "name": "Side B (Squall Hammer)",
+            "image": "../images/ice-climbers/side-b.gif",
+            "description": "Frames: 89\nHit: 12, 14, 17, 20, 23, 27, 31, 35, 41, 47, 55\nLandfallspeciallag: 4"
+        },
+        {
+            "name": "Side B (With Nana)",
+            "image": "../images/ice-climbers/side-b2.gif",
+            "description": "Frames: 89\nHit: 12, 14, 17, 20, 23, 27, 31, 35, 41, 47, 55\nLandfallspeciallag: 4"
+        },
+        {
+            "name": "Up B (Belay)",
+            "image": "../images/ice-climbers/up-b.gif",
+            "description": "Frames: 89\nNana hits: 17-59\nNana invulnerable: 5-59\nNana becomes falling: 60\nOnly Popo total: 42\nlandfallspeciallag: 25"
+        },
+        {
+            "name": "Air Dodge",
+            "image": "../images/ice-climbers/air-dodge.gif",
+            "description": "Frames: 48\nInvulnerable: 4-29"
+        },
+        {
+            "name": "Spot Dodge",
+            "image": "../images/ice-climbers/spot-dodge.gif",
+            "description": "Frames: 27\nInvulnerable: 2-18"
+        },
+        {
+            "name": "Roll Forward",
+            "image": "../images/ice-climbers/roll-forward.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19"
+        },
+        {
+            "name": "Roll Back",
+            "image": "../images/ice-climbers/roll-back.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19"
+        }
+    ],
+    "jigglypuff": [
+        {
+            "name": "Jab",
+            "image": "../images/jigglypuff/jab.gif",
+            "description": "Frames: 17\nIASA: 16\nHit: 5-6\nWindow of the second punch: 3-25\nSecond punch starts: 8"
+        },
+        {
+            "name": "Jab 2",
+            "image": "../images/jigglypuff/jab2.gif",
+            "description": "Frames: 20\nIASA: 17\nHit: 6-7"
+        },
+        {
+            "name": "Forward Tilt",
+            "image": "../images/jigglypuff/f-tilt.gif",
+            "description": "Frames: 27\nHit: 6-9"
+        },
+        {
+            "name": "Forward Tilt (Up)",
+            "image": "../images/jigglypuff/f-tilt-up.gif",
+            "description": "Frames: 27\nHit: 6-9"
+        },
+        {
+            "name": "Forward Tilt (Down)",
+            "image": "../images/jigglypuff/f-tilt-down.gif",
+            "description": "Frames: 27\nHit: 6-9"
+        },
+        {
+            "name": "Up Tilt",
+            "image": "../images/jigglypuff/up-tilt.gif",
+            "description": "Frames: 23\nHit: 8-14"
+        },
+        {
+            "name": "Down Tilt",
+            "image": "../images/jigglypuff/d-tilt.gif",
+            "description": "Frames: 39 \nHit: 10-12\nIASA: 30"
+        },
+        {
+            "name": "Dash Attack",
+            "image": "../images/jigglypuff/dash.gif",
+            "description": "Frames: 39\nHit: 4-14 \nIASA: 39"
+        },
+        {
+            "name": "Forward Smash",
+            "image": "../images/jigglypuff/f-smash.gif",
+            "description": "Frames: 44\nHit: 12-20 \nCharge Frames: 4"
+        },
+        {
+            "name": "Up Smash",
+            "image": "../images/jigglypuff/up-smash.gif",
+            "description": "Frames: 54\nHit: 7-10\nCharge Frames: 5\nIASA: 45\nEarliest hit OoS: 8"
+        },
+        {
+            "name": "Down Smash",
+            "image": "../images/jigglypuff/d-smash.gif",
+            "description": "Frames: 54\n Hit: 3-10\nLegs invincible: 9-10\nCharge frame: 5\nIASA: 48"
+        },
+        {
+            "name": "Neutral Air",
+            "image": "../images/jigglypuff/nair.gif",
+            "description": "Frames: 49\n Hit: 6-28\n Auto cancel: <5 29>\nLanding Lag: 20\nLcanceled: 10"
+        },
+        {
+            "name": "Up Air",
+            "image": "../images/jigglypuff/up-air.gif",
+            "description": "Frames: 33\n Hit: 6-13\nIASA: 30\n Auto cancel: <8 37>\nLanding Lag: 20\nLcanceled: 10\nEarliest hit OoS: 14"
+        },
+        {
+            "name": "Back Air",
+            "image": "../images/jigglypuff/bair.gif",
+            "description": "Frames: 39\n Hit: 9-12\nIASA: 31\n Auto cancel: <8 25>\nLanding Lag: 20\nLcanceled: 10\nEarliest hit OoS: 14"
+        },
+        {
+            "name": "Down Air",
+            "image": "../images/jigglypuff/dair.gif",
+            "description": "Frames: 49\n Hit: 5-6, 8-9, 11-12, 14-15, 17-18, 20-21, 23-24, 26-27\n Auto cancel: <4 39>\nLanding Lag: 30\nLcanceled: 15\nEarliest hit OoS: 10"
+        },
+        {
+            "name": "Forward Air",
+            "image": "../images/jigglypuff/fair.gif",
+            "description": "Frames: 39\n Hit: 7-22\nIASA: 35\n Auto cancel: <6 34>\nLanding Lag: 20\nLcanceled: 10\nEarliest hit OoS: 12"
+        },
+        {
+            "name": "Grab",
+            "image": "../images/jigglypuff/grab.gif",
+            "description": "Frames: 30\nGrab: 7-8"
+        },
+        {
+            "name": "Dash Grab",
+            "image": "../images/jigglypuff/dash-grab.gif",
+            "description": "Frames: 40\nGrab: 11-12"
+        },
+        {
+            "name": "Neutral B (Rollout)",
+            "image": "../images/jigglypuff/n-b.gif",
+            "description": "Charging starts: 16\nHit animation: 1-106 (whenever you hit the ground)\nMaximum charge at 45 frames.\nWhile turning, Jigglypuff takes no damage for 27 frames."
+        },
+        {
+            "name": "Down B (Rest)",
+            "image": "../images/jigglypuff/down-b.gif",
+            "description": "Frames: 249\nHit: 1\nInvincible: 1-26\nEarliest Hit OoS: 6"
+        },
+        {
+            "name": "Side B (Pound)",
+            "image": "../images/jigglypuff/side-b.gif",
+            "description": "Frames: 45\nHit: 12-27\nWhen to aim: 12\nEarliest FF: 42"
+        },
+        {
+            "name": "Up B (Sing)",
+            "image": "../images/jigglypuff/up-b.gif",
+            "description": "Frames: 179\nHit: 28-35, 69-76, 113-125\nHitbox changes size depending on when it\"s singing.\nCan grab the ledge from any direction."
+        },
+        {
+            "name": "Air Dodge",
+            "image": "../images/jigglypuff/air-dodge.gif",
+            "description": "Frames: 49\nInvulnerable: 4-29"
+        },
+        {
+            "name": "Spot Dodge",
+            "image": "../images/jigglypuff/spot-dodge.gif",
+            "description": "Frames: 27\nInvulnerable: 2-15"
+        },
+        {
+            "name": "Roll Forward",
+            "image": "../images/jigglypuff/roll-forward.gif",
+            "description": "Frames: 34\nInvulnerable: 2-18"
+        },
+        {
+            "name": "Roll Back",
+            "image": "../images/jigglypuff/roll-back.gif",
+            "description": "Frames: 34\nInvulnerable: 2-18"
+        }
+    ],
+    "marth": [
+        {
+            "name": "Jab",
+            "image": "../images/marth/jab.gif",
+            "description": "Frames: 27 \n Hit: 4-7 \n IASA: 26 \n Window of the second jab: 3-27 \n Second jab starts: 20"
+        },
+        {
+            "name": "Jab 2",
+            "image": "../images/marth/jab2.gif",
+            "description": "Frames: 28 \n Hit: 5-9 \n IASA: 17"
+        },
+        {
+            "name": "Forward Tilt",
+            "image": "../images/marth/f-tilt.gif",
+            "description": "Frames: 35 \n Hit: 7-10"
+        },
+        {
+            "name": "Up Tilt",
+            "image": "../images/marth/up-tilt.gif",
+            "description": "Frames: 39\nHit: 6-12\nIASA: 32"
+        },
+        {
+            "name": "Down Tilt",
+            "image": "../images/marth/d-tilt.gif",
+            "description": "Frames: 49 \nHit: 7-9\nIASA: 20"
+        },
+        {
+            "name": "Dash Attack",
+            "image": "../images/marth/dash.gif",
+            "description": "Frames: 49\nHit: 12-15 \nIASA: 40"
+        },
+        {
+            "name": "Forward Smash",
+            "image": "../images/marth/f-smash.gif",
+            "description": "Frames: 49\nHit: 10-13 \nCharge Frames: 3\nIASA: 48"
+        },
+        {
+            "name": "Up Smash",
+            "image": "../images/marth/up-smash.gif",
+            "description": "Frames: 54\nHit: 13-16\nCharge Frames: 7\nIASA: 46"
+        },
+        {
+            "name": "Down Smash",
+            "image": "../images/marth/d-smash.gif",
+            "description": "Frames: 64\n Hit: 5-7, 20-22, 22-24\nCharge Frames: 3\nIASA: 62"
+        },
+        {
+            "name": "Neutral Air",
+            "image": "../images/marth/nair.gif",
+            "description": "Frames: 49\n Hit: 6-7, 15-21\n Auto cancel: <5 25>\nLanding Lag: 15\nLcanceled: 7"
+        },
+        {
+            "name": "Up Air",
+            "image": "../images/marth/up-air.gif",
+            "description": "Frames: 45\n Hit: 5-8\n Auto cancel: <4 27>\nLanding Lag: 15\nLcanceled: 7"
+        },
+        {
+            "name": "Back Air",
+            "image": "../images/marth/bair.gif",
+            "description": "Frames: 39\n Hit: 7-11\n Auto cancel: 32>\nLanding Lag: 24\nLcanceled: 12"
+        },
+        {
+            "name": "Down Air",
+            "image": "../images/marth/dair.gif",
+            "description": "Frames: 59\n Hit: 6-9\n Auto cancel: <5 48>\nLanding Lag: 32\nLcanceled: 16"
+        },
+        {
+            "name": "Forward Air",
+            "image": "../images/marth/fair.gif",
+            "description": "Frames: 33\n Hit: 4-7\n Auto cancel: 27>\nLanding Lag: 15\nLcanceled: 7"
+        },
+        {
+            "name": "Grab",
+            "image": "../images/marth/grab.gif",
+            "description": "Frames: 30\nGrab: 7-8"
+        },
+        {
+            "name": "Dash Grab",
+            "image": "../images/marth/dash-grab.gif",
+            "description": "Frames: 40\nGrab: 10-11"
+        },
+        {
+            "name": "Down B (Counter)",
+            "image": "../images/marth/down-b.gif",
+            "description": "Frames: 59\nCounter Frames: 5-29\nFrames if activated: 46\nHit: 14-20 (or 1 frame later for real strong moves)\nInvincible 1-16"
+        },
+        {
+            "name": "Neutral B (Shield Breaker)",
+            "image": "../images/marth/n-b.gif",
+            "description": "Time to get to charging: 11 frames\nHit (from release of B): 5-10\nMax charge time: 121 frames"
+        },
+        {
+            "name": "Sword Dance (1, Side)",
+            "image": "../images/marth/side-b.gif",
+            "description": "Frames 29\nHit: 6-8\nWindow for attack 2: 9-26"
+        },
+        {
+            "name": "Sword Dance (2, Neutral/Side/Down)",
+            "image": "../images/marth/side-b2-down.gif",
+            "description": "Frames 40\nHit: 14-16\nWindow for attack 3: 17-33"
+        },
+        {
+            "name": "Sword Dance (2, Up)",
+            "image": "../images/marth/side-b2-up.gif",
+            "description": "Frames 40\nHit: 12-15\nWindow for attack 3: 17-32"
+        },
+        {
+            "name": "Sword Dance (3, Side/Neutral)",
+            "image": "../images/marth/side-b3.gif",
+            "description": "Frames 46\nHit: 11-14\nWindow for attack 4: 16-37"
+        },
+        {
+            "name": "Sword Dance (3, Up)",
+            "image": "../images/marth/side-b3-up.gif",
+            "description": "Frames 46\nHit: 13-17\nWindow for attack 4: 18-38"
+        },
+        {
+            "name": "Sword Dance (3, Down)",
+            "image": "../images/marth/side-b3-down.gif",
+            "description": "Frames 46\nHit: 14-18\nWindow for attack 4: 19-35"
+        },
+        {
+            "name": "Sword Dance (4, Side/Neutral)",
+            "image": "../images/marth/side-b4.gif",
+            "description": "Frames 50\nHit: 23-26"
+        },
+        {
+            "name": "Sword Dance (4, Up)",
+            "image": "../images/marth/side-b4-up.gif",
+            "description": "Frames 50\nHit: 20-25"
+        },
+        {
+            "name": "Sword Dance (4, Down)",
+            "image": "../images/marth/side-b4-down.gif",
+            "description": "Frames 60\nHit: 13-15, 19-21, 25-27, 31-33, 37-38"
+        },
+        {
+            "name": "Up B (Dolphin Slash)",
+            "image": "../images/marth/up-b.gif",
+            "description": "Frames: 39\nHit: 5-10\nInvulnerable: 5\nLandfallspeciallag: 34"
+        },
+        {
+            "name": "Air Dodge",
+            "image": "../images/marth/air-dodge.gif",
+            "description": "Frames: 49\nInvulnerable: 4-29"
+        },
+        {
+            "name": "Spot Dodge",
+            "image": "../images/marth/spot-dodge.gif",
+            "description": "Frames: 27\nInvulnerable: 2-18"
+        },
+        {
+            "name": "Roll Forward",
+            "image": "../images/marth/roll-forward.gif",
+            "description": "Frames: 35\nInvulnerable: 4-19"
+        },
+        {
+            "name": "Roll Back",
+            "image": "../images/marth/roll-back.gif",
+            "description": "Frames: 35\nInvulnerable: 4-23"
+        }
+    ],
+    "peach": [
+        {
+            "name": "Jab - Royal Slap",
+            "image": "../images/peach/jab.gif",
+            "description": "Frames: 19\nIASA: 16\nHit: 2-3\nWindow of the second jab: 3-25\nShield Advantage: -10\nShield Advantage with Double Slap: -6"
+        },
+        {
+            "name": "Jab 2 - Double Royal Slap",
+            "image": "../images/peach/jab2.gif",
+            "description": "Frames: 20\nIASA: 17\nHit: 3-4\nShield Advantage: -11"
+        },
+        {
+            "name": "Forward Tilt - Can-Can Kick",
+            "image": "../images/peach/f-tilt.gif",
+            "description": "Frames: 41\nHit: 6-13\nIASA: 37\nShield Advantage: -23"
+        },
+        {
+            "name": "Up Tilt - Crown Bash",
+            "image": "../images/peach/up-tilt.gif",
+            "description": "Frames: 39\nHit: 9-13\nIASA: 37\nHead Invincible: 9-12\nShield Advantage: from -16 to -20"
+        },
+        {
+            "name": "Down Tilt - Elegant Sweep",
+            "image": "../images/peach/d-tilt.gif",
+            "description": "Frames: 27\nHit: 12-13\nIASA: 26\nShield Advantage: -7"
+        },
+        {
+            "name": "Dash Attack - Lady Push",
+            "image": "../images/peach/dash-attack.gif",
+            "description": "Frames: 37\nHit: 6-20 \nIASA: 36\nShield Advantage (Early): -22\nShield Advantage (Late): -17"
+        },
+        {
+            "name": "Forward Smash - Peach Swing (Golf Club)",
+            "image": "../images/peach/f-smash1.gif",
+            "description": "Frames: 47\nHit: 15-18\nCharge frame: 8\nIASA: 40\nShield Advantage (Pan Tip and Golf Tip): -13\n(Tennis, Close Golf, Close Pan): -15/-16"
+        },
+        {
+            "name": "Forward Smash - Peach Swing (Frying Pan)",
+            "image": "../images/peach/f-smash2.gif",
+            "description": "Frames: 47\nHit: 15-18\nCharge frame: 8\nIASA: 40\nShield Advantage (Pan Tip and Golf Tip): -13\n(Tennis, Close Golf, Close Pan): -15/-16"
+        },
+        {
+            "name": "Forward Smash - Peach Swing (Tennis Racket)",
+            "image": "../images/peach/f-smash3.gif",
+            "description": "Frames: 47\nHit: 15-18\nCharge frame: 8\nIASA: 40\nShield Advantage (Pan Tip and Golf Tip): -13\n(Tennis, Close Golf, Close Pan): -15/-16"
+        },
+        {
+            "name": "Up Smash - Pirouette",
+            "image": "../images/peach/up-smash.gif",
+            "description": "Frames: 44\nHit: 13-22\nCharge frame: 10\nHead and arms invulnerable: 13-22\nShield Advantage (Sides): -26\nShield Advantage (Hand): -23\nShield Advantage (Shoulder): -21"
+        },
+        {
+            "name": "Down Smash - Double-Edged Gown",
+            "image": "../images/peach/d-smash.gif",
+            "description": "Frames: 39\nHit: 5-6, 9-10, 13-14, 17-18, 21-22\nCharge frame: 3\nLegs invincible: 3-24\nShield Advantage: \nHit 1: -26\nHit 2: -22\nHit 3: -18\nHit 4: -14\nHit 5: -10"
+        },
+        {
+            "name": "Neutral Air - Princess Twirl",
+            "image": "../images/peach/nair.gif",
+            "description": "Frames: 49\nHit: 3-23\nIASA: 42\nAuto Cancel: <2 36>\nLanding Lag: 17\nL Canceled: 8"
+        },
+        {
+            "name": "Up Air - Floating High Kick",
+            "image": "../images/peach/up-air.gif",
+            "description": "Frames: 35\nHit: 7-11\nIASA: 34\nAuto Cancel: <6 22>\nLanding Lag: 15\nL Canceled: 7"
+        },
+        {
+            "name": "Back Air - Flying Hip",
+            "image": "../images/peach/bair.gif",
+            "description": "Frames: 44\nHit: 6-22\nIASA: 38\nAuto Cancel: <4 23>\nLanding Lag: 15\nL Canceled: 7"
+        },
+        {
+            "name": "Down Air - Stiletto Kick",
+            "image": "../images/peach/dair.gif",
+            "description": "Frames: 39\nHit: 12-13, 18-19, 24-25, 30-31\nIASA: 36\nAuto Cancel: <11 36>\nLanding Lag: 15\nL Canceled: 7"
+        },
+        {
+            "name": "Forward Air - Crown Smack",
+            "image": "../images/peach/fair.gif",
+            "description": "Frames: 54\nHit: 16-20\nIASA: 51\nAuto Cancel: <15 39>\nLanding Lag: 25\nL Canceled: 12"
+        },
+        {
+            "name": "Grab",
+            "image": "../images/peach/grab.gif",
+            "description": "Frames: 30\nGrab: 7-8"
+        },
+        {
+            "name": "Dash Grab",
+            "image": "../images/peach/dash-grab.gif",
+            "description": "Frames: 40\nGrab: 7-8"
+        },
+        {
+            "name": "Neutral B - Toad",
+            "image": "../images/peach/neutral-b.gif",
+            "description": "Frames: 64\nToad: 10-30\nToad Counter\nTotal: 69\nInvincible: 1-8\nHit: 6-32\n7 Spores, each spore lasts 11 frames"
+        },
+        {
+            "name": "Down B - Vegetable",
+            "image": "../images/peach/down-b.gif",
+            "description": "Frames: 29\nVegetable lasts 140 frames in air"
+        },
+        {
+            "name": "Turnip Throw - Ground",
+            "image": "../images/peach/turnip-throw.gif",
+            "description": "Frames: 23\nRelease: 10 (forward, back)\nRelease: 11 (up)\nRelease: 9 (down)"
+        },
+        {
+            "name": "Side B - Peach Bomber",
+            "image": "../images/peach/side-b.gif",
+            "description": "Windup on ground: 21\nLunging portion: 25 (1-10 do damage)\nLanding Lag: 33\nHit recovery: 28 (including 1st frame of hit)\nShield Advantage (Tilt): -10\nShield Advantage (Smash): -8"
+        },
+        {
+            "name": "Side B - Peach Bomber (Aerial)",
+            "image": "../images/peach/side-b-air.gif",
+            "description": "Windup in air: 31\nLunging portion: 25 (1-10 do damage)\nLanding Lag: 33\nAir lag: 28\nHit recovery: 28 (including 1st frame of hit)\nShield Advantage (Tilt): -10\nShield Advantage (Smash): -8"
+        },
+        {
+            "name": "Up B - Peach Parasol",
+            "image": "../images/peach/up-b.gif",
+            "description": "Frames: 40\nInvincibility: 3\nHit: 6-9, 10-11, 12-13, 14-15, 16-17, 18-19, 20-21, 22-23, 24-25, 26-27, 28-29\nOpeningTotal: 15\nHit: 10>\nParasol Open Landlag: 30\nParasol Closed Landlag: 4\nEarliest edge grab: 34"
+        },
+        {
+            "name": "Air Dodge",
+            "image": "../images/peach/air-dodge.gif",
+            "description": "Frames: 49\nInvulnerable: 4-19\nGlide Toss window: 1-3\nCan input fastfall on frame 20"
+        },
+        {
+            "name": "Spot Dodge",
+            "image": "../images/peach/spot-dodge.gif",
+            "description": "Frames: 27\nInvulnerable: 2-18"
+        },
+        {
+            "name": "Roll Forward",
+            "image": "../images/peach/roll-forward.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19\nGlide Toss window: 1-5"
+        },
+        {
+            "name": "Roll Back",
+            "image": "../images/peach/roll-back.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19\nGlide Toss window: 1-5"
+        }
+    ],
+    "pickachu": [
+        {
+            "name": "Jab - Head Butt",
+            "image": "../images/pikachu/jab.gif",
+            "description": "Frames: 21\nHit: 2-3\nConsecutive head butts start as early as frame 5"
+        },
+        {
+            "name": "Forward Tilt",
+            "image": "../images/pikachu/f-tilt.gif",
+            "description": "Frames: 29\nHit: 5-14"
+        },
+        {
+            "name": "Forward Tilt (Up)",
+            "image": "../images/pikachu/f-tilt-up.gif",
+            "description": "Frames: 29\nHit: 5-14"
+        },
+        {
+            "name": "Forward Tilt (Down)",
+            "image": "../images/pikachu/f-tilt-down.gif",
+            "description": "Frames: 29\nHit: 5-14"
+        },
+        {
+            "name": "Up Tilt",
+            "image": "../images/pikachu/up-tilt.gif",
+            "description": "Frames: 23\nHit: 7-14"
+        },
+        {
+            "name": "Down Tilt",
+            "image": "../images/pikachu/d-tilt.gif",
+            "description": "Frames: 21\nHit: 7-9\nIASA: 19"
+        },
+        {
+            "name": "Dash Attack",
+            "image": "../images/pikachu/dash.gif",
+            "description": "Frames: 49\nHit: 5-16"
+        },
+        {
+            "name": "Forward Smash",
+            "image": "../images/pikachu/f-smash.gif",
+            "description": "Frames: 49\nHit: 16-23 \nCharge Frames: 14"
+        },
+        {
+            "name": "Up Smash",
+            "image": "../images/pikachu/up-smash.gif",
+            "description": "Frames: 49\nHit: 8-17\nCharge Frames: 5\nIASA: 41"
+        },
+        {
+            "name": "Down Smash",
+            "image": "../images/pikachu/d-smash.gif",
+            "description": "Frames: 54\nHit: 7-8, 10-11, 13-14, 16-17, 19-20, 22-23, 25\nCharge Frames: 5\nIASA: 51"
+        },
+        {
+            "name": "Neutral Air",
+            "image": "../images/pikachu/nair.gif",
+            "description": "Frames: 39\n Hit: 3-28\nAuto cancel: <2 35>\nLanding Lag: 15\nLcanceled: 7"
+        },
+        {
+            "name": "Up Air",
+            "image": "../images/pikachu/up-air.gif",
+            "description": "Frames: 27\n Hit: 3-8\nAuto cancel: <2 18>\nLanding Lag: 26\nLcanceled: 13"
+        },
+        {
+            "name": "Back Air",
+            "image": "../images/pikachu/bair.gif",
+            "description": "Frames: 59\n Hit: 4-37\n Auto cancel: <3 50>\nLanding hit: 1\nLanding Lag: 30\nLcanceled: 15"
+        },
+        {
+            "name": "Down Air",
+            "image": "../images/pikachu/dair.gif",
+            "description": "Frames: 57\n Hit: 14-26\n Auto cancel: 39>\nLanding hit: 2\nLanding Lag: 40\nLcanceled: 20"
+        },
+        {
+            "name": "Forward Air",
+            "image": "../images/pikachu/fair.gif",
+            "description": "Frames: 39\n Hit: 10-12, 14-16, 18-20, 22-24\n Auto cancel: <9 34>\nLanding Lag: 20\nLcanceled: 10"
+        },
+        {
+            "name": "Grab",
+            "image": "../images/pikachu/grab.gif",
+            "description": "Frames: 30\nGrab: 7-8"
+        },
+        {
+            "name": "Dash Grab",
+            "image": "../images/pikachu/dash-grab.gif",
+            "description": "Frames: 40\nGrab: 11-12"
+        },
+        {
+            "name": "Neutral B - Thunder Jolt",
+            "image": "../images/pikachu/n-b.gif",
+            "description": "Frames: 57\nBolt comes out: 18\nProjectile lasts: 99 frames\nFastfall anytime"
+        },
+        {
+            "name": "Neutral B - Thunder Jolt (Aerial)",
+            "image": "../images/pikachu/n-b-air.gif",
+            "description": "Frames: 57\nBolt comes out: 18\nProjectile lasts: 99 frames\nFastfall anytime"
+        },
+        {
+            "name": "Down B - Thunder",
+            "image": "../images/pikachu/down-b.gif",
+            "description": "Frames: 78\nHitboxes appear: 20, 28, 36, 44\nHitboxes disappear (total whiff): 80, 88, 96, 104"
+        },
+        {
+            "name": "Down B - Thunder (When Hit)",
+            "image": "../images/pikachu/down-b2.gif",
+            "description": "Frames:  69\nHit: 1-9\nWhen does Pikachu get hit?\nStanding still: 40\nFalling: 51"
+        },
+        {
+            "name": "Side B - Skull Bash",
+            "image": "../images/pikachu/side-b.gif",
+            "description": "Maximum charge time: 90 frames"
+        },
+        {
+            "name": "Up B - Quick Attack",
+            "image": "../images/pikachu/up-b.gif",
+            "description": "Total (1 jump): 68\nTotal (2 jump): 81\nTime to aim 1st jump: 13\nTime to aim 2nd jump: 26\nHit: 13-18, 27-31\nLandlag: 24\nLandfallspeciallag: 4"
+        },
+        {
+            "name": "Air Dodge",
+            "image": "../images/pikachu/air-dodge.gif",
+            "description": "Frames: 49\nInvulnerable: 4-29"
+        },
+        {
+            "name": "Spot Dodge",
+            "image": "../images/pikachu/spot-dodge.gif",
+            "description": "Frames: 22\nInvulnerable: 2-15"
+        },
+        {
+            "name": "Roll Forward",
+            "image": "../images/pikachu/roll-forward.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19"
+        },
+        {
+            "name": "Roll Back",
+            "image": "../images/pikachu/roll-back.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19"
+        }
+    ],
+    "pichu": [
+        {
+            "name": "Jab - Head Butt",
+            "image": "../images/pichu/jab.gif",
+            "description": "Frames: 21\nHit: 2-3\nConsecutive head butts start as early as frame 5"
+        },
+        {
+            "name": "Forward Tilt",
+            "image": "../images/pichu/f-tilt.gif",
+            "description": "Frames: 29\nHit: 5-14"
+        },
+        {
+            "name": "Forward Tilt (Up)",
+            "image": "../images/pichu/f-tilt-up.gif",
+            "description": "Frames: 29\nHit: 5-14"
+        },
+        {
+            "name": "Forward Tilt (Down)",
+            "image": "../images/pichu/f-tilt-down.gif",
+            "description": "Frames: 29\nHit: 5-14"
+        },
+        {
+            "name": "Up Tilt",
+            "image": "../images/pichu/up-tilt.gif",
+            "description": "Frames: 23\nHit: 7-14"
+        },
+        {
+            "name": "Down Tilt",
+            "image": "../images/pichu/d-tilt.gif",
+            "description": "Frames: 21\nHit: 7-9\nIASA: 19"
+        },
+        {
+            "name": "Dash Attack",
+            "image": "../images/pichu/dash.gif",
+            "description": "Frames: 49\nHit: 5-16"
+        },
+        {
+            "name": "Forward Smash",
+            "image": "../images/pichu/f-smash.gif",
+            "description": "Frames: 49\nHit: 16-23 \nCharge Frames: 14"
+        },
+        {
+            "name": "Up Smash",
+            "image": "../images/pichu/up-smash.gif",
+            "description": "Frames: 49\nHit: 8-17\nCharge Frames: 5\nIASA: 41"
+        },
+        {
+            "name": "Down Smash",
+            "image": "../images/pichu/d-smash.gif",
+            "description": "Frames: 54\nHit: 7-8, 10-11, 13-14, 16-17, 19-20, 22-23, 25\nCharge Frames: 5\nIASA: 51"
+        },
+        {
+            "name": "Neutral Air",
+            "image": "../images/pichu/nair.gif",
+            "description": "Frames: 39\n Hit: 3-28\nAuto cancel: <2 35>\nLanding Lag: 15\nLcanceled: 7"
+        },
+        {
+            "name": "Up Air",
+            "image": "../images/pichu/up-air.gif",
+            "description": "Frames: 27\n Hit: 3-8\nAuto cancel: <2 18>\nLanding Lag: 26\nLcanceled: 13"
+        },
+        {
+            "name": "Back Air",
+            "image": "../images/pichu/bair.gif",
+            "description": "Frames: 59\n Hit: 4-37\n Auto cancel: <3 50>\nLanding hit: 1\nLanding Lag: 30\nLcanceled: 15"
+        },
+        {
+            "name": "Down Air",
+            "image": "../images/pichu/dair.gif",
+            "description": "Frames: 57\n Hit: 14-26\n Auto cancel: 39>\nLanding hit: 2\nLanding Lag: 40\nLcanceled: 20"
+        },
+        {
+            "name": "Forward Air",
+            "image": "../images/pichu/fair.gif",
+            "description": "Frames: 39\n Hit: 10-12, 14-16, 18-20, 22-24\n Auto cancel: <9 34>\nLanding Lag: 20\nLcanceled: 10"
+        },
+        {
+            "name": "Grab",
+            "image": "../images/pichu/grab.gif",
+            "description": "Frames: 30\nGrab: 7-8"
+        },
+        {
+            "name": "Dash Grab",
+            "image": "../images/pichu/dash-grab.gif",
+            "description": "Frames: 40\nGrab: 11-12"
+        },
+        {
+            "name": "Neutral B - Thunder Jolt",
+            "image": "../images/pichu/n-b.gif",
+            "description": "Frames: 57\nBolt comes out: 18\nProjectile lasts: 99 frames\nFastfall anytime"
+        },
+        {
+            "name": "Neutral B - Thunder Jolt (Aerial)",
+            "image": "../images/pichu/n-b-air.gif",
+            "description": "Frames: 57\nBolt comes out: 18\nProjectile lasts: 99 frames\nFastfall anytime"
+        },
+        {
+            "name": "Down B - Thunder",
+            "image": "../images/pichu/down-b.gif",
+            "description": "Frames: 78\nHitboxes appear: 20, 28, 36, 44\nHitboxes disappear (total whiff): 80, 88, 96, 104"
+        },
+        {
+            "name": "Down B - Thunder (When Hit)",
+            "image": "../images/pichu/down-b2.gif",
+            "description": "Frames:  69\nHit: 1-9\nWhen does pichu get hit?\nStanding still: 40\nFalling: 51"
+        },
+        {
+            "name": "Side B - Skull Bash",
+            "image": "../images/pichu/side-b.gif",
+            "description": "Maximum charge time: 90 frames"
+        },
+        {
+            "name": "Up B - Quick Attack",
+            "image": "../images/pichu/up-b.gif",
+            "description": "Total (1 jump): 68\nTotal (2 jump): 81\nTime to aim 1st jump: 13\nTime to aim 2nd jump: 26\nHit: 13-18, 27-31\nLandlag: 24\nLandfallspeciallag: 4"
+        },
+        {
+            "name": "Air Dodge",
+            "image": "../images/pichu/air-dodge.gif",
+            "description": "Frames: 49\nInvulnerable: 4-29"
+        },
+        {
+            "name": "Spot Dodge",
+            "image": "../images/pichu/spot-dodge.gif",
+            "description": "Frames: 22\nInvulnerable: 2-15"
+        },
+        {
+            "name": "Roll Forward",
+            "image": "../images/pichu/roll-forward.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19"
+        },
+        {
+            "name": "Roll Back",
+            "image": "../images/pichu/roll-back.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19"
+        }
+    ],
+    "shiek": [
+        {
+            "name": "Jab",
+            "image": "../images/shiek/jab.gif",
+            "description": "Frames: 17 \n Hit: 2-3 \n IASA: 16 \n Window of the second jab: 3-25 \n Second jab starts: 10 (or later)"
+        },
+        {
+            "name": "Jab 2",
+            "image": "../images/shiek/jab2.gif",
+            "description": "Frames: 18 \n Hit: 3-5 \n IASA: 17 \n Window of the rapid jabs: 2-18 \nRapid jabs start: 10"
+        },
+        {
+            "name": "Rapid Jab",
+            "image": "../images/shiek/jab3.gif",
+            "description": "Frames: 55\nHits: 3-4, 7-8, etc.\nJabs start: 10​"
+        },
+        {
+            "name": "Forward Tilt",
+            "image": "../images/shiek/f-tilt.gif",
+            "description": "Frames: 29 \n Hit: 5-10\n IASA: 27"
+        },
+        {
+            "name": "Up Tilt",
+            "image": "../images/shiek/up-tilt.gif",
+            "description": "Frames: 333\nHit: 5-10\nIASA: 26"
+        },
+        {
+            "name": "Down Tilt",
+            "image": "../images/shiek/d-tilt.gif",
+            "description": "Frames: 29 \nHit: 5-8\nIASA: 28"
+        },
+        {
+            "name": "Dash Attack",
+            "image": "../images/shiek/dash.gif",
+            "description": "Frames: 37\nHit: 6-12 \nIASA: 36"
+        },
+        {
+            "name": "Forward Smash",
+            "image": "../images/shiek/f-smash.gif",
+            "description": "Frames: 50\nHit: 12, 27-29 \nCharge Frames: 5\nIASA: 46"
+        },
+        {
+            "name": "Up Smash",
+            "image": "../images/shiek/up-smash.gif",
+            "description": "Frames: 47\nHit: 12, 14-16\nHead and forearms invincible: 12-16\nIASA: 40\nCharge Frames: 10"
+        },
+        {
+            "name": "Down Smash",
+            "image": "../images/shiek/d-smash.gif",
+            "description": "Frames: 49\n Hit: 5-9, 16-19, 22-24\nLegs invincible: 5\nIASA: 46\nCharge Frames: 2"
+        },
+        {
+            "name": "Neutral Air",
+            "image": "../images/shiek/nair.gif",
+            "description": "Frames: 48\n Hit: 3-30\n IASA: 42\n Auto cancel: <2 31>\nLanding Lag: 16\nLcanceled: 8"
+        },
+        {
+            "name": "Up Air",
+            "image": "../images/shiek/up-air.gif",
+            "description": "Frames: 39\n Hit: 5-20\n IASA: 37\n Auto cancel: <4 30>\nLanding Lag: 24\nLcanceled: 12"
+        },
+        {
+            "name": "Back Air",
+            "image": "../images/shiek/bair.gif",
+            "description": "Frames: 37\n Hit: 4-19\n Auto cancel: <3 25>\nLanding Lag: 16\nLcanceled: 8"
+        },
+        {
+            "name": "Down Air",
+            "image": "../images/shiek/dair.gif",
+            "description": "Frames: 48\n Hit: 15-33\n Auto cancel: <2\nLanding Lag: 20\nLcanceled: 10"
+        },
+        {
+            "name": "Forward Air",
+            "image": "../images/shiek/fair.gif",
+            "description": "Frames: 33\n Hit: 5-7\n Auto cancel: <4 11>\nLanding Lag: 16\nLcanceled: 8"
+        },
+        {
+            "name": "Grab",
+            "image": "../images/shiek/grab.gif",
+            "description": "Frames: 30\nGrab: 7-8"
+        },
+        {
+            "name": "Dash Grab",
+            "image": "../images/shiek/dash-grab.gif",
+            "description": "Frames: 40\nGrab: 8-9"
+        },
+        {
+            "name": "Down B (Transform)",
+            "image": "../images/shiek/down-b.gif",
+            "description": "Frames: 62\nInvulnerable: 27-36\nFirst frame of Zelda: 37"
+        },
+        {
+            "name": "Neutral B (Charged Needles)",
+            "image": "../images/shiek/n-b.gif",
+            "description": "Frames when charged: 40\nNeedles released at 4, 7, 10, 13, 16, 19"
+        },
+        {
+            "name": "Neutral B (Charged Needles airborne)",
+            "image": "../images/shiek/n-b-air.gif",
+            "description": "Needles released at 11, 14, 17, 20, 23, 26\nAuto cancels upon landing\nLast frame: 39\nNeedles last 30 frames"
+        },
+        {
+            "name": "Side B",
+            "image": "../images/shiek/side-b.gif",
+            "description": "Comes out on 22\nFully extended at 34\nEarliest retraction starts on 44"
+        },
+        {
+            "name": "Up B",
+            "image": "../images/shiek/up-b.gif",
+            "description": "Frames: 94\nHit: 36-42\nInvincible: 18-55\nThe frame of choosing direction: 35\nLandlag: 30\nLandfallspeciallag: 4"
+        },
+        {
+            "name": "Air Dodge",
+            "image": "../images/shiek/air-dodge.gif",
+            "description": "Frames: 49\nInvulnerable: 4-29"
+        },
+        {
+            "name": "Spot Dodge",
+            "image": "../images/shiek/spot-dodge.gif",
+            "description": "Frames: 22\nInvulnerable: 2-15"
+        },
+        {
+            "name": "Roll Forward",
+            "image": "../images/shiek/roll-forward.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19"
+        },
+        {
+            "name": "Roll Back",
+            "image": "../images/shiek/roll-back.gif",
+            "description": "Frames: 31\nInvulnerable: 4-19"
+        }
+    ]
+}

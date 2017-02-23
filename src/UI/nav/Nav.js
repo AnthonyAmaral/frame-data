@@ -22,90 +22,93 @@ export default class UINav extends React.Component {
   render() {
 
 var name;
+
+//TODO: Once all character data is inputted
+// turn this into an array of links rather than doing a switch
 switch (window.location.pathname){
   case '/':
     name = "/Wireframe";
     break;
-  case '/fox':
-    name = "/fox";
+  case '/character/fox':
+    name = "/character/fox";
     break;
-  case '/falco':
-    name = "/falco";
+  case '/character/falco':
+    name = "/character/falco";
     break;
-  case '/shiek':
-    name = "/shiek";
+  case '/character/shiek':
+    name = "/character/shiek";
     break;
-  case '/marth':
-    name = "/marth";
+  case '/character/marth':
+    name = "/character/marth";
     break;
-  case '/captain-falcon':
-    name = "/captain-falcon";
+  case '/character/captain-falcon':
+    name = "/character/captain-falcon";
     break;
-  case '/jigglypuff':
-    name = "/jigglypuff";
+  case '/character/jigglypuff':
+    name = "/character/jigglypuff";
     break;
-  case '/ice-climbers':
-    name = "/ice-climbers";
+  case '/character/ice-climbers':
+    name = "/character/ice-climbers";
     break;
-  case '/peach':
-    name = "/peach";
+  case '/character/peach':
+    name = "/character/peach";
     break;
-  case '/pikachu':
-    name = "/pikachu";
+  case '/character/pikachu':
+    name = "/character/pikachu";
     break;
-  case '/samus':
-    name = "/samus";
+  case '/character/samus':
+    name = "/character/samus";
     break;
-  case '/doctor-mario':
-    name = "/doctor-mario";
+  case '/character/doctor-mario':
+    name = "/character/doctor-mario";
     break;
-  case '/yoshi':
-    name = "/yoshi";
+  case '/character/yoshi':
+    name = "/character/yoshi";
     break;
-  case '/luigi':
-    name = "/luigi";
+  case '/character/luigi':
+    name = "/character/luigi";
     break;
-  case '/mario':
-    name = "/mario";
+  case '/character/mario':
+    name = "/character/mario";
     break;
-  case '/link':
-    name = "/link";
+  case '/character/link':
+    name = "/character/link";
     break;
-  case '/young-link':
-    name = "/young-link";
+  case '/character/young-link':
+    name = "/character/young-link";
     break;
-  case '/donkey-kong':
-    name = "/donkey-kong";
+  case '/character/donkey-kong':
+    name = "/character/donkey-kong";
     break;
-  case '/ganondorf':
-    name = "/ganondorf";
+  case '/character/ganondorf':
+    name = "/character/ganondorf";
     break;
-  case '/roy':
-    name = "/roy";
+  case '/character/roy':
+    name = "/character/roy";
     break;
-  case '/game-and-watch':
-    name = "/game-and-watch";
+  case '/character/game-and-watch':
+    name = "/character/game-and-watch";
     break;
-  case '/mewtwo':
-    name = "/mewtwo";
+  case '/character/mewtwo':
+    name = "/character/mewtwo";
     break;
-  case '/zelda':
-    name = "/zelda";
+  case '/character/zelda':
+    name = "/character/zelda";
     break;
-  case '/ness':
-    name = "/ness";
+  case '/character/ness':
+    name = "/character/ness";
     break;
-  case '/pichu':
-    name = "/pichu";
+  case '/character/pichu':
+    name = "/character/pichu";
     break;
-  case '/bowser':
+  case '/character/bowser':
     name = "/bowser";
     break;
-  case '/kirby':
-    name = "/kirby";
+  case '/character/kirby':
+    name = "/character/kirby";
     break;
   default:
-    name = "/Sandbag"
+    name = "/character/Sandbag"
     break;
 }
 var string1 = "images/icons";
@@ -115,10 +118,9 @@ var string2 = ".png";
       <Navbar className="header" full color="faded" light toggleable>
         <Container>
           <NavbarToggler right onClick={this.toggleNavbar} />
-          <NavbarBrand className="mr-auto" tag={Link} to="/"><img className="nav-icon" src={string1 + name + string2} alt="icon" />Melee Frame Data</NavbarBrand>
+          <NavbarBrand className="mr-auto" tag={Link} to="/"><img className="nav-icon" src={window.location.pathname.indexOf('character') > -1 ? '../' + string1 + name + string2 : string1 + name + string2} alt="icon" />Melee Frame Data</NavbarBrand>
           <Collapse navbar isOpen={this.state.showNavbar}>
             <Nav navbar className="ml-sm-auto">
-
               <NavItem>
                 <NavLink href="https://github.com/anthonyamaral/frame-data">Github</NavLink>
               </NavItem>

@@ -21,107 +21,107 @@ const propTypes = {
 var nav = [
   {
     name: 'Fox',
-    to: '/fox'
+    to: '/character/fox'
   },
   {
     name: 'Falco',
-    to: '/falco'
+    to: '/character/falco'
   },
   {
     name: 'Shiek',
-    to: '/shiek'
+    to: '/character/shiek'
   },
   {
     name: 'Marth',
-    to: '/marth'
+    to: '/character/marth'
   },
   {
     name: 'Captain Falcon',
-    to: '/captain-falcon'
+    to: '/character/captain-falcon'
   },
   {
     name: 'Jigglypuff',
-    to: '/jigglypuff'
+    to: '/character/jigglypuff'
   },
   {
     name: 'Ice Climbers',
-    to: '/ice-climbers'
+    to: '/character/ice-climbers'
   },
   {
     name: 'Peach',
-    to: '/peach'
+    to: '/character/peach'
   },
   {
     name: 'Pikachu',
-    to: '/pikachu'
+    to: '/character/pikachu'
   },
   {
     name: 'Samus',
-    to: '/samus'
+    to: '/character/samus'
   },
   {
     name: 'Doctor Mario',
-    to: '/doctor-mario'
+    to: '/character/doctor-mario'
   },
   {
     name: 'Yoshi',
-    to: '/yoshi'
+    to: '/character/yoshi'
   },
   {
     name: 'Luigi',
-    to: '/luigi'
+    to: '/character/luigi'
   },
   {
     name: 'Mario',
-    to: '/mario'
+    to: '/character/mario'
   },
   {
     name: 'Link',
-    to: '/link'
+    to: '/character/link'
   },
   {
     name: 'Young Link',
-    to: '/young-link'
+    to: '/character/young-link'
   },
   {
     name: 'Donkey Kong',
-    to: '/donkey-kong'
+    to: '/character/donkey-kong'
   },
   {
     name: 'Ganondorf',
-    to: '/ganondorf'
+    to: '/character/ganondorf'
   },
   {
     name: 'Roy',
-    to: '/roy'
+    to: '/character/roy'
   },
   {
     name: 'Game & Watch',
-    to: '/game-and-watch'
+    to: '/character/game-and-watch'
   },
   {
     name: 'Mewtwo',
-    to: '/mewtwo'
+    to: '/character/mewtwo'
   },
   {
     name: 'Zelda',
-    to: '/zelda'
+    to: '/character/zelda'
   },
   {
     name: 'Ness',
-    to: '/ness'
+    to: '/character/ness'
   },
   {
     name: 'Pichu',
-    to: '/pichu'
+    to: '/character/pichu'
   },
   {
     name: 'Bowser',
-    to: '/bowser'
+    to: '/character/bowser'
   },
   {
     name: 'Kirby',
-    to: '/kirby'
+    to: '/character/kirby'
   }
 ];
 
