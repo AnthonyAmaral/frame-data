@@ -12,7 +12,6 @@ const Character = (props) => {
           <Row key={props.params.character}>
           {
             characterData[props.params.character].map(function(move, index) {
-                  let num = move.name === "Illusion" ? (num = 12) : (num = 6);
                   return (
                     <CustomCard
                       key={index}
@@ -22,7 +21,7 @@ const Character = (props) => {
                         move.description.split("\n").map((i , index) => {
                             return <div key={index}>{i}</div>;
                         })}
-                      column={num}
+
                       />
                   )
               })
