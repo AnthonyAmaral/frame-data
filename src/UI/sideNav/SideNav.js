@@ -133,7 +133,7 @@ class Components extends React.Component {
       <UINav />
       <Container className="content">
         <Row>
-          <Col lg={{ size: 2 }} md={{ size: 3 }} sm={{ size: 3 }}>
+          <Col lg={{ size: 2 }} md={{ size: 3 }} sm={{ size: 3 }} xs={{ size: 3}}>
             <div className="docs-sidebar mb-2">
               <h5 className="sidenav-label">Characters</h5>
               <Nav className="flex-column">
@@ -143,7 +143,7 @@ class Components extends React.Component {
               </Nav>
             </div>
           </Col>
-          <Col lg={{ size: 10}} md={{ size: 9}} sm={{ size: 9}}>
+          <Col lg={{ size: 10}} md={{ size: 9}} sm={{ size: 9}} xs={{ size: 9}}>
             {this.props.children}
           </Col>
         </Row>

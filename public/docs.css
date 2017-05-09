@@ -16,10 +16,34 @@ h5.sidenav-label {
 div.card-block {
   padding: 1.6rem;
 }
-.col .card {
+.card {
   background-color: rgba(236, 238, 239, 0.39);
+  margin-bottom: 5%;
 }
-
+ @media (max-width: 575px) {
+   .card {
+     margin-right: -2.5rem !important;
+   }
+   .mr-auto {
+     padding-left: 10px;
+   }
+}
+@media (max-width: 415px) {
+  h5.sidenav-label {
+    font-size: .9rem;
+    font-weight: 400;
+  }
+  .docs-sidebar .nav-link {
+    padding: .0rem .0rem .2rem .1rem !important;
+  }
+  a.nav-link {
+    font-size: .9rem;
+  }
+  div.card-block {
+    padding: .7rem;
+    line-height: 1.2;
+  }
+}
 .container-fluid {
   max-width: 1200px;
 }

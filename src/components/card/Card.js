@@ -5,7 +5,7 @@ import { Card, CardImg, CardTitle, CardText, CardSubtitle, CardBlock, Col } from
 
 const Example = (props) => {
   return (
-    <Col lg="4" md="6" sm="12">
+    <Col lg="4" md="6" sm="12" xs="10">
       <Card>
         <CardBlock>
           <CardTitle className="lead">{props.name}</CardTitle>
